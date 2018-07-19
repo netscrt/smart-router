@@ -1,0 +1,20 @@
+{
+	"L7":{
+		"http":"^(GET|POST|HEAD|DELETE|PUT|CONNECT|OPTIONS|TRACE)",
+		"ssh":"^SSH",
+		"ssl":"^\x16\x03",
+		"rdp":"^\x03\x00\x00\x13",
+		"socks5":"^\x05",
+		"httpProxy": "^CONNECT)|(Proxy-Connection:)"
+	},
+	"Policy": {
+		"http": "",
+		"ssh": "",
+		"ssl": "",
+		"rdp": "",
+		"socks5": "",
+		"httpProxy":"",
+		"default": ""
+	},
+	"Listen":"1024"
+}
